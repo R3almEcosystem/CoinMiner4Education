@@ -1,0 +1,169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8C2710562EE0950A0007EE98 /* CoinMiner4Education.metallib */ = {isa = PBXFileReference; explicitFileType = "archive.metal-library"; includeInIndex = 0; path = CoinMiner4Education.metallib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8C2710582EE0950A0007EE98 /* CoinMiner4Education */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CoinMiner4Education;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXGroup section */
+		8C27104F2EE0950A0007EE98 = {
+			isa = PBXGroup;
+			children = (
+				8C2710582EE0950A0007EE98 /* CoinMiner4Education */,
+				8C2710572EE0950A0007EE98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C2710572EE0950A0007EE98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C2710562EE0950A0007EE98 /* CoinMiner4Education.metallib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C2710552EE0950A0007EE98 /* CoinMiner4Education */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C27105D2EE0950A0007EE98 /* Build configuration list for PBXNativeTarget "CoinMiner4Education" */;
+			buildPhases = (
+				8C2710542EE0950A0007EE98 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8C2710582EE0950A0007EE98 /* CoinMiner4Education */,
+			);
+			name = CoinMiner4Education;
+			packageProductDependencies = (
+			);
+			productName = CoinMiner4Education;
+			productReference = 8C2710562EE0950A0007EE98 /* CoinMiner4Education.metallib */;
+			productType = "com.apple.product-type.metal-library";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C2710502EE0950A0007EE98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					8C2710552EE0950A0007EE98 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C2710532EE0950A0007EE98 /* Build configuration list for PBXProject "CoinMiner4Education" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C27104F2EE0950A0007EE98;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8C2710572EE0950A0007EE98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C2710552EE0950A0007EE98 /* CoinMiner4Education */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C2710542EE0950A0007EE98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C27105B2EE0950A0007EE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8C27105C2EE0950A0007EE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8C27105E2EE0950A0007EE98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		8C27105F2EE0950A0007EE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C2710532EE0950A0007EE98 /* Build configuration list for PBXProject "CoinMiner4Education" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C27105B2EE0950A0007EE98 /* Debug */,
+				8C27105C2EE0950A0007EE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C27105D2EE0950A0007EE98 /* Build configuration list for PBXNativeTarget "CoinMiner4Education" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C27105E2EE0950A0007EE98 /* Debug */,
+				8C27105F2EE0950A0007EE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C2710502EE0950A0007EE98 /* Project object */;
+}
